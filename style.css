@@ -33,8 +33,32 @@ nav{
 
 .filtres{
     margin: auto;
-    padding: auto;
+    padding: 10px;;
+    
+    width: 13%;
+    border-radius: 20% / 70%;
+    border: 1px solid grey;
 }
+
+.fas.fa-money-bill-wave{
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+
+.fas.fa-child{
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+
+.fas.fa-heart{
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+.fas.fa-dog{
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+
 #art_h{
     width: 60%;
     border: 1px solid green;
@@ -80,3 +104,4 @@ footer{
 
     border: 1px solid rgb(128, 0, 0);
 }
+

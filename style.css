@@ -4,14 +4,20 @@
     float: left;
 }
 
-ul{
-    list-style-type: none;
-    
-}
-
 nav{
     display:flex;
     color: rgb(179, 179, 179);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+li{
+    padding: 20px;
 }
 
 #menu_header{
@@ -27,6 +33,20 @@ nav{
     color: rgb(158, 157, 157);
 }
 /*-----------------------------------*/
+
+/*--------BARRE DE RECHERCHE---------*/
+
+button{
+    background-color: #0065FC;
+    color: white;
+}
+
+.fas.fa-map-marker-alt{
+    border: 1px solid green;
+
+}
+
+/*----------------------------------*/
 
 /*----------SECTION FILTRES---------*/
 
@@ -109,18 +129,22 @@ nav{
     flex-direction: column;
     background-color: white;
     width: 300px;
-    height: 160px;
+    
     margin: 15px;
     border: 1px solid rgb(128, 0, 0);
 }
 
+#def_hbgm{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
 /*--------IMAGES HEBERGEMENTS--------*/
 
-#img_prem_hbgm{
+#img_hbgm{
     max-width: 80%;
-    max-height: 80%;
-
-
+    max-height: 65%;
 }
 /*-----------------------------------*/
 
@@ -177,15 +201,7 @@ footer{
     width: 30%;
 }
 
-button{
-    background-color: #0065FC;
-    color: white;
-}
 
-.fas.fa-map-marker-alt{
-    border: 1px solid green;
-
-}
 
 /*-----------------------------------*/
 

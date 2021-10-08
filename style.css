@@ -16,9 +16,6 @@ ul{
     
 }
 
-li{
-    padding: 20px;
-}
 
 #menu_header{
     justify-content: right;
@@ -26,7 +23,8 @@ li{
 
 .nav_header{
     display: inline-flex;
-    margin-bottom: 40px;
+    
+    padding: 20px;
 }
 
 #title2_header{
@@ -129,7 +127,6 @@ button{
     flex-direction: column;
     background-color: white;
     width: 300px;
-    
     margin: 15px;
     border: 1px solid rgb(128, 0, 0);
 }
@@ -162,8 +159,6 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
-    
 }
 
 .el_plus_pop{
@@ -171,8 +166,8 @@ button{
     height: 100px;
     margin: 15px;
     border: 1px solid rgb(128,0,0);
-    
 }
+
 /*-----------------------------------*/
 
 /*----SECTION ACTIVITES MARSEILLE----*/
@@ -188,17 +183,22 @@ button{
 /*-------------FOOTER----------------*/
 
 footer{
-    display: flex;
-    border: 1px solid green;
-    margin-top: 30px;
-    
+    display: flex;    
+    background-color:#F2F2F2;
+    margin-top: 30px;    
 }
 
-#list_footer{
-    border: 1px solid rgb(128, 0, 0);
+#info_footer{
     display: flex;
     flex-direction: column;
     width: 30%;
+}
+
+#list_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-bottom: 20px;
 }
 
 

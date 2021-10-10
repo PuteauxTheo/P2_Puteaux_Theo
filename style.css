@@ -48,10 +48,15 @@ button{
 
 /*----------SECTION FILTRES---------*/
 
+
 #art_f{
    display: inline-flex;
    width: 80%;
 }   
+
+#title_filtres{
+    display: flex;
+}
 
 #art_filtres{
     display: flex;
@@ -60,34 +65,56 @@ button{
 }
 
 .filtres{
+    display: flex;
+    align-items: center;
     margin: 20px;
-    padding: 8px;
+    padding: -1px;
+   
     border-radius: 120px;
     border: 1px solid grey;
+
+}
+
+.text_filtre{
+    padding: 10px;
 }
 
 /*------------------------------*/
 
 /*---ICONES POUR LES FILTRES---*/
 
-.fas.fa-money-bill-wave{
+.fa-money-bill-wave{
+    display: flex;
+    border-radius: 100px;
     color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
+}
+
+
+
+.fa-child{
+    display: flex;
+    border-radius: 100px;
+    color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
     
-    padding-right: 15px;
 }
 
-.fas.fa-child{
+.fa-heart{
+    display: flex;
+    border-radius: 100px;
     color:#0065FC;
     background-color: #DEEBFF;
+    padding: 10px;
 }
-
-.fas.fa-heart{
+.fa-dog{
+    display: flex;
+    border-radius: 100px;
     color:#0065FC;
     background-color: #DEEBFF;
-}
-.fas.fa-dog{
-    color:#0065FC;
-    background-color: #DEEBFF;
+    padding: 10px;
 }
 /*-----------------------------------*/
 

@@ -34,14 +34,22 @@ ul{
 
 /*--------BARRE DE RECHERCHE---------*/
 
+.search_form{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.fa-map-marker-alt{
+    display: flex;
+    padding: 10px;
+
+}
+
 button{
     background-color: #0065FC;
     color: white;
-}
-
-.fas.fa-map-marker-alt{
-    border: 1px solid green;
-
 }
 
 /*----------------------------------*/
@@ -67,9 +75,7 @@ button{
 .filtres{
     display: flex;
     align-items: center;
-    margin: 20px;
-    padding: -1px;
-   
+    margin: 20px;   
     border-radius: 120px;
     border: 1px solid grey;
 

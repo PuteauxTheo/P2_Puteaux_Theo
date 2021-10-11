@@ -125,16 +125,6 @@ button{
 /*-----------------------------------*/
 
 
-/*---------PREMIERE SECTION----------*/
-
-.prem_section{
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-/*-----------------------------------*/
 
 /*---ARTICLE HERBEGEMENT MARSEILLE---*/
 
@@ -204,9 +194,7 @@ button{
 /*-----------------------------------*/
 
 /*----SECTION ACTIVITES MARSEILLE----*/
-.deux_sect{
-    margin-top: 30px;
-}
+
 
 #art_act{
     border: 1px solid green;

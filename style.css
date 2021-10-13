@@ -1,5 +1,8 @@
 /*---------------HEADER------------*/
 
+header{
+    margin: 10px;
+}
 #img_booki{
     float: left;
 }
@@ -30,7 +33,7 @@ ul{
 #title2_header{
     color: rgb(158, 157, 157);
 }
-/*-----------------------------------*/
+
 
 /*--------BARRE DE RECHERCHE---------*/
 
@@ -52,7 +55,7 @@ button{
     color: white;
 }
 
-/*----------------------------------*/
+
 
 /*----------SECTION FILTRES---------*/
 
@@ -85,7 +88,6 @@ button{
     padding: 10px;
 }
 
-/*------------------------------*/
 
 /*---ICONES POUR LES FILTRES---*/
 
@@ -124,7 +126,9 @@ button{
 }
 /*-----------------------------------*/
 
+/*--------------BODY-----------------*/
 
+body{}
 
 /*---ARTICLE HERBEGEMENT MARSEILLE---*/
 
@@ -134,7 +138,7 @@ button{
     display: inline-flex;
     flex-direction: column;
     vertical-align: top;
-
+    
 }
 
 #article_hbgm{
@@ -191,7 +195,6 @@ button{
     border: 1px solid rgb(128,0,0);
 }
 
-/*-----------------------------------*/
 
 /*----SECTION ACTIVITES MARSEILLE----*/
 
@@ -248,6 +251,8 @@ button{
 
 .img_42{}
 /*-----------------------------------*/
+
+
 
 /*-------------FOOTER----------------*/
 

@@ -128,12 +128,18 @@ button{
 
 /*--------------BODY-----------------*/
 
-body{}
+/* body{} */
+
+.tempo{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
 
 /*---ARTICLE HERBEGEMENT MARSEILLE---*/
 
 #art_h{
-    width: 64%;
+    width: 68%;
     background-color:#F2F2F2;
     display: inline-flex;
     flex-direction: column;
@@ -153,9 +159,11 @@ body{}
     display: flex;
     flex-direction: column;
     background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
     width: 300px;
     margin: 15px;
-    border: 1px solid rgb(128, 0, 0);
+    
 }
 
 #def_hbgm{
@@ -164,43 +172,117 @@ body{}
     margin: 10px;
 }
 
+.plus_info{
+    margin: 15px;
+}
 /*--------IMAGES HEBERGEMENTS--------*/
 
-#img_hbgm{
-    max-width: 100%;
-    max-height: 100%;
+.img_hbgm{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img_1_1{
+    width: 100%;
+    margin-top: -30px;
+}
+
+.img_1_2{
+    width: 100%;
+    margin-top: -25px;
+}
+
+.img_1_3{
+    width: 100%;
+    margin-top: -25px;
+}
+
+.img_1_4{
+    width: 100%;
+    margin-top: -70px;
+}
+
+.img_1_5{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.img_1_6{
+    width: 100%;
+    margin-top: -150px;
 }
 /*-----------------------------------*/
 
 /*-----ASIDE LES PLUS POPULAIRES-----*/
 
 #aside_p{
-    border: 1px solid green;
-    width: 33%;
-    display: inline-flex;
+    background-color:#F2F2F2;
+    width: 29%;
+    display: flex;
     flex-direction: column;
     vertical-align: top;
+    
 }
 
 #article_plus_pop{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    
+    
+    
 }
 
 .el_plus_pop{
-    width: 360px;
-    height: 100px;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;   
+    flex-direction: row;
+    width: 90%;
+    height: 30%;
     margin: 15px;
-    border: 1px solid rgb(128,0,0);
 }
 
+.def_plus_pop{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/*----IMAGES LES PLUS POPULAIRES-----*/
+.img_plus_pop{
+    width: 40%;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;}
+
+.img_1_21{
+    height: 100%;
+    
+    margin-left: -50px;
+}
+
+.img_1_22{
+    height: 100%;
+    margin-left: -30px;
+}
+
+.img_1_23{
+    width: 100%;
+    margin-top: -30px;
+}
+
+/*-----------------------------------*/
 
 /*----SECTION ACTIVITES MARSEILLE----*/
 
 
 #section_actv{
-    width: 100%;
+    margin: 10px;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
@@ -209,18 +291,24 @@ body{}
 #list_article_actv{
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    justify-content: space-between;
     
 }
 
 .cont_actv{
-    width: 25%;
+    width: 23%;
     display: flex;
     flex-direction: column;
 }
 
-.el_actv{
+.el_actv_grand{
     border: 1px solid rgb(128,0,0);
+    display: flex;
+    flex-direction: column;
+}
+
+.el_actv_petit{
+    border: 1px solid rgb(13, 0, 128);
     display: flex;
     flex-direction: column;
 }
@@ -228,28 +316,28 @@ body{}
 
 /*-----IMAGES ACTIVITES MARSEILLE----*/
 .div_img{
-    height: 500px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
 
 .div_img_2{
-    height: 250px;
+    height: 50%;
     width: 100%;    
     overflow: hidden;
 }
 
-.img_1{}
+.img_2_1{}
 
-.img_21{margin: -150px 0px 0px 0px;}
+.img_2_21{margin: -150px 0px 0px 0px;}
 
-.img_22{}
+.img_2_22{}
 
-.img_3{}
+.img_2_3{}
 
-.img_41{}
+.img_2_41{}
 
-.img_42{}
+.img_2_42{}
 /*-----------------------------------*/
 
 

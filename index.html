@@ -8,6 +8,7 @@
         <link rel="stylesheet" media="screen and (max-width: 992px)" href="telephone_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 768px -->
         <script src="https://kit.fontawesome.com/15d41a8749.js" crossorigin="anonymous"></script>
         <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     </head>
 
     
@@ -22,8 +23,8 @@
                 
                 <nav id="menu_header"> 
                     <ul >
-                        <li class="nav_header"> Herbergments</li>
-                        <li class="nav_header">Activités</li>
+                        <li class="nav_header_hbgm"><a href="#Hebergement" class=" menu_hbgm"> Herbergments</a></li>
+                        <li class="nav_header_actv"><a href="#Activite">Activités</a></li>
                     </ul>
                 </nav>
             </section>
@@ -86,8 +87,8 @@
             </div>
         </header> 
 
-        <div class="premier_section">
-            <section id="art_h">
+        <div class="premier_section" id="Hebergement">
+            <section id="art_h" >
                     
                 <h1 class="title_hbgm"> Hébergement Marseille </h1>
 
@@ -212,57 +213,58 @@
             </section>
         </div>
        
-        
-        <section id="section_actv">
-            <h1> Activités à Marseille </h1>
+        <div id="Activite">
+            <section id="section_actv" >
+                <h1> Activités à Marseille </h1>
 
-            <div  id="list_article_actv">
-                <div class="cont_actv">
-                    <figure class="el_actv_grand">
-                        <div class="div_img">
-                            <img class="img_2_1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-                        </div>
-                        <figcaption>Vieux Port</figcaption>
-                    </figure>
+                <div  id="list_article_actv">
+                    <div class="cont_actv">
+                        <figure class="el_actv_grand">
+                            <div class="div_img">
+                                <img class="img_2_1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                            </div>
+                            <figcaption>Vieux Port</figcaption>
+                        </figure>
+                    </div>
+                    <div class="cont_actv">
+                        <figure class="el_actv_petit" >
+                            <div  class="div_img_2" >
+                                <img class="img_2_21" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                            </div>
+                            <figcaption>Fort de Pomègues</figcaption>
+                        </figure>
+                        <figure class="el_actv_petit">
+                            <div  class="div_img_3">
+                                <img class="img_2_22" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                            </div>
+                            <figcaption>Iles du frioul</figcaption>                      
+                        </figure>
+                    </div>
+                    <div class="cont_actv">
+                        <figure class="el_actv_grand">
+                            <div class="div_img">
+                                <img class="img_2_3" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                            </div>
+                            <figcaption>Parc National des Calanques</figcaption>
+                        </figure>
+                    </div>
+                    <div class="cont_actv">
+                        <figure class="el_actv_petit">
+                            <div  class="div_img_4">
+                                <img class="img_2_41" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                            </div>
+                            <figcaption>Notre-Dame-de la Garde</figcaption>
+                        </figure>
+                        <figure class="el_actv_petit">
+                            <div  class="div_img_4">
+                                <img class="img_2_42" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                            </div>
+                            <figcaption>Parc Longchamp</figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div class="cont_actv">
-                    <figure class="el_actv_petit" >
-                        <div  class="div_img_2" >
-                            <img class="img_2_21" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-                        </div>
-                        <figcaption>Fort de Pomègues</figcaption>
-                    </figure>
-                    <figure class="el_actv_petit">
-                        <div  class="div_img_3">
-                            <img class="img_2_22" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
-                        </div>
-                        <figcaption>Iles du frioul</figcaption>                      
-                    </figure>
-                </div>
-                <div class="cont_actv">
-                    <figure class="el_actv_grand">
-                        <div class="div_img">
-                            <img class="img_2_3" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-                        </div>
-                        <figcaption>Parc National des Calanques</figcaption>
-                    </figure>
-                </div>
-                <div class="cont_actv">
-                    <figure class="el_actv_petit">
-                        <div  class="div_img_4">
-                            <img class="img_2_41" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
-                        </div>
-                        <figcaption>Notre-Dame-de la Garde</figcaption>
-                    </figure>
-                    <figure class="el_actv_petit">
-                        <div  class="div_img_4">
-                            <img class="img_2_42" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
-                        </div>
-                        <figcaption>Parc Longchamp</figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <footer>
 

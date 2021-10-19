@@ -1,3 +1,5 @@
+
+
 /*---------------HEADER------------*/
 
 header{
@@ -9,25 +11,42 @@ header{
 
 nav{
     display:flex;
-    color: rgb(179, 179, 179);
+    
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    
-    
 }
 
 
+a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
 #menu_header{
     justify-content: right;
 }
 
-.nav_header{
+.nav_header_actv, .nav_header_hbgm{
     display: inline-flex;
-    
     padding: 20px;
+}
+
+.nav_header_hbgm:hover,.nav_header_actv:hover{
+    display: inline-flex;
+    border-top:2px solid blue;
+    padding: 20px;
+    
+}
+
+.menu_hbgm:hover{
+    
 }
 
 #title2_header{
@@ -176,6 +195,7 @@ button{
 #article_hbgm{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -185,8 +205,8 @@ button{
     background-color: white;
     border: 5px solid white;
     border-radius: 20px;
-    width: 19em;
-    margin: 30px;
+    width: 22em;
+    margin: 20px;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.2);
     
 }

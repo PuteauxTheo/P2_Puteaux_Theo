@@ -41,7 +41,7 @@ ul{
 .search_form{
     display: flex;
     align-content: center;
-    height: 3em;
+    height: 2.5em;
     
 }
 
@@ -80,23 +80,25 @@ button{
    width: 80%;
 }   
 
-#title_filtres{
+.title_filtres{
     display: flex;
+    margin-right: 20px;
 }
 
 #art_filtres{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .filtres{
     display: flex;
-    align-items: center;
-    margin: 20px;   
-    border-radius: 120px;
-    border: 1px solid grey;
-
+    align-items: center;  
+    border-radius: 100px;
+    border: 1px solid #F2F2F2;
+    height: 2.9em;
 }
 
 .text_filtre{
@@ -105,47 +107,52 @@ button{
 
 
 /*---ICONES POUR LES FILTRES---*/
-
-.fa-money-bill-wave{
+.icon_Filtre{
     display: flex;
-    border-radius: 100px;
+    clip-path: circle(50%);
+    background-color:#DEEBFF;
+    height: 3em;
+    width: 3em;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{    
     color:#0065FC;
-    background-color: #DEEBFF;
-    padding: 10px;
 }
 
+/*-----------------------------------*/
 
+/*-------ICONES INFORMATION ---------*/
 
-.fa-child{
+.info_site{
     display: flex;
-    border-radius: 100px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icone_info_site{
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+    
+}
+.fa-info{
+    color: #0065FC;
     
 }
 
-.fa-heart{
-    display: flex;
-    border-radius: 100px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    padding: 10px;
-}
-.fa-dog{
-    display: flex;
-    border-radius: 100px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    padding: 10px;
-}
-/*-----------------------------------*/
 
 /*--------------BODY-----------------*/
 
 /* body{} */
 
-.tempo{
+.premier_section{
     margin: 10px;
     display: flex;
     justify-content: space-between;
@@ -162,11 +169,13 @@ button{
     
 }
 
+.title_hbgm{
+    margin: 20px;
+}
+
 #article_hbgm{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-   
     
 }
 
@@ -176,8 +185,8 @@ button{
     background-color: white;
     border: 5px solid white;
     border-radius: 20px;
-    width: 300px;
-    margin: 15px;
+    width: 19em;
+    margin: 30px;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.2);
     
 }
@@ -236,21 +245,25 @@ button{
 
 #aside_p{
     background-color:#F2F2F2;
-    width: 29%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     vertical-align: top;
     
 }
 
+.title_aside_p{
+    margin: 20px;
+
+}
+.fa-chart-line{
+    float: right;
+}
+
 #article_plus_pop{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    
-    
-    
+    height: 100%;    
 }
 
 .el_plus_pop{
@@ -261,7 +274,7 @@ button{
     display: flex;   
     flex-direction: row;
     width: 90%;
-    margin: 15px;
+    margin: 20px;
 }
 
 .def_plus_pop{
@@ -269,7 +282,10 @@ button{
     flex-direction: column;
     margin: 20px;
     width: 60%;
+    justify-content: space-between;
 }
+
+
 
 /*----IMAGES LES PLUS POPULAIRES-----*/
 .img_plus_pop{
@@ -297,6 +313,16 @@ button{
 }
 
 /*-----------------------------------*/
+
+/*---------ICONES ETOILES------------*/
+
+.fa-star{
+    color: #0065FC;
+}
+
+.grey_star{
+    color: #F2F2F2;
+}
 
 /*----SECTION ACTIVITES MARSEILLE----*/
 

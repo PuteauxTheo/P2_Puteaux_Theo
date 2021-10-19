@@ -10,71 +10,86 @@
         <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     </head>
 
-    <header>
-        <section>
-            <div>
-                <image id="img_booki" src='images/logo/Booki.png'> 
-            </div>
-            
-            <nav id="menu_header"> 
-                <ul >
-                    <li class="nav_header"> Herbergments</li>
-                    <li class="nav_header">Activités</li>
-                </ul>
-            </nav>
-        </section>
-        
-        <section>
-            <h1> Trouver Votre Hébergement pour des vacances de rêve</h1>
-            
-            <h2 id="title2_header">En plein centre ville ou en pleine nature </h2>
-        </section>
-
-        <div class="header_search">
-            <form class="search_form" role="search">    
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" placeholder="Marseille,France" id="site-search">
-                <button class="btn"> Rechercher </button>
-            </form>
-        </div>
-
-        <section>
-            <div id="art_f">
-                <h1 id="title_filtres">Filtres </h1>
-            
-                <div id="art_filtres">
-                    <div class="filtres" >
-                        <span class="fas fa-money-bill-wave"></span>
-                        <span class="text_filtre">Economique</span>
-                    </div>
-
-                    <div class="filtres">
-                        <span class="fas fa-child"></span>
-                        <span class="text_filtre">Familial</span>
-                    </div>
-
-                    <div class="filtres" >
-                        <span class="fas fa-heart"></span>
-                        <span class="text_filtre">Romantique</span>
-                    </div>
-                    
-                    <div class="filtres">
-                        <span class="fas fa-dog"></span>
-                        <span class="text_filtre">Animaux autorisés</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-
-    </header> 
+    
 
     <body>
-        <div class="tempo">
+
+        <header>
+            <section>
+                <div>
+                    <image id="img_booki" src='images/logo/Booki.png'> 
+                </div>
+                
+                <nav id="menu_header"> 
+                    <ul >
+                        <li class="nav_header"> Herbergments</li>
+                        <li class="nav_header">Activités</li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section>
+                <h1> Trouver Votre Hébergement pour des vacances de rêve</h1>
+                
+                <h2 id="title2_header">En plein centre ville ou en pleine nature </h2>
+            </section>
+    
+            <div class="header_search">
+                <form class="search_form" role="search">    
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" placeholder="Marseille,France" id="site-search">
+                    <button class="btn"> Rechercher </button>
+                </form>
+            </div>
+    
+            <section>
+                <div id="art_f">
+                    <h1 class="title_filtres">Filtres </h1>
+                
+                    <div id="art_filtres">
+                        <div class="filtres" >
+                            <div class="icon_Filtre">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <span class="text_filtre">Economique</span>
+                        </div>
+    
+                        <div class="filtres">
+                            <div class="icon_Filtre">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <span class="text_filtre">Familial</span>
+                        </div>
+    
+                        <div class="filtres" >
+                            <div class="icon_Filtre">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <span class="text_filtre">Romantique</span>
+                        </div>
+                        
+                        <div class="filtres">
+                            <div class="icon_Filtre">
+                                <i class="fas fa-dog"></i>
+                            </div>
+                            <span class="text_filtre">Animaux autorisés</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <div class="info_site">
+                <div class="icone_info_site">
+                    <i class="fas fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </header> 
+
+        <div class="premier_section">
             <section id="art_h">
                     
-                <h1 class="titre_hbgm"> Hébergement Marseille </h1>
+                <h1 class="title_hbgm"> Hébergement Marseille </h1>
 
                 <div  id="article_hbgm">
 
@@ -86,7 +101,7 @@
                         <div id="def_hbgm">
                             <h1>Auberge La Cannebière</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
 
@@ -98,7 +113,7 @@
                         <div id="def_hbgm">
                             <h1>Hôtel du port</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
                     </article>
 
@@ -110,7 +125,7 @@
                         <div id="def_hbgm">
                             <h1>Hôtel Les Mouettes</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
 
@@ -122,7 +137,7 @@
                         <div id="def_hbgm">
                             <h1>Hôtel de la mer</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
 
@@ -133,7 +148,7 @@
                         <div id="def_hbgm">
                             <h1>Auberge Le Panier</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
 
@@ -144,7 +159,7 @@
                         <div id="def_hbgm">
                             <h1>Hôtel chez Amina</h1>
                             <span>Nuit a partir de 25€ </span>
-                            <span>Les étoiles</span>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
                     </article>
 
@@ -154,7 +169,7 @@
             </section>
                 
             <section id="aside_p">
-                <h1>Les plus populaires <i class="fas fa-chart-line"></i></h1>
+                <h1 class="title_aside_p">Les plus populaires <i class="fas fa-chart-line"></i></h1>
 
                 <div  id="article_plus_pop">
                     <article class="el_plus_pop">
@@ -162,9 +177,11 @@
                             <img class="img_1_21" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                         </div>
                         <div class="def_plus_pop">
-                            <h1>Hôtel Le soleil du matin</h1>
-                            <span>Nuit à partir de 128€</span>
-                            <span>Les etoiles</span>
+                            <div>
+                                <h1>Hôtel Le soleil du matin</h1>
+                                <span>Nuit à partir de 128€</span>
+                            </div>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
                     </article>
                     <article class="el_plus_pop">
@@ -172,9 +189,11 @@
                             <img class="img_1_22" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                         </div>
                         <div class="def_plus_pop">
-                            <h1>Au coeur de l'eau Chambres d'hôtes</h1>
-                            <span>Nuit à partir de 71€</span>
-                            <span>Les etoiles</span>
+                            <div>
+                                <h1>Au coeur de l'eau Chambres d'hôtes</h1>
+                                <span>Nuit à partir de 71€</span>
+                            </div>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
                     <article class="el_plus_pop">
@@ -182,9 +201,11 @@
                             <img class="img_1_23" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                         </div>
                         <div class="def_plus_pop">
-                            <h1>Hôtel Tout bleu et Blanc</h1>
-                            <span>Nuit à partir de 68€</span>
-                            <span>Les etoiles</span>
+                            <div>    
+                                <h1>Hôtel Tout bleu et Blanc</h1>
+                                <span>Nuit à partir de 68€</span>
+                            </div>
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
                     </article>
                 </div>
@@ -242,42 +263,44 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+
+            <div id="info_footer">
+                
+                
+                <ul id="list_footer">
+                    <li><h3> A Propos </h3></li>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+    
+            </div>
+    
+            <div id="info_footer">
+                
+                
+                <ul id="list_footer">
+                    <li><h3>Nos hébergement</h3></li>
+                    <li> Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </div>
+    
+            <div id="info_footer">
+                
+    
+                <ul id="list_footer">
+                    <li><h3>Assistance</h3></li>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
+        </footer>
     </body>
 
-    <footer>
-
-        <div id="info_footer">
-            
-            
-            <ul id="list_footer">
-                <li><h3> A Propos </h3></li>
-                <li>Fonctionnement du site</li>
-                <li>Conditions générales de vente</li>
-                <li>Données et confidentialité</li>
-            </ul>
-
-        </div>
-
-        <div id="info_footer">
-            
-            
-            <ul id="list_footer">
-                <li><h3>Nos hébergement</h3></li>
-                <li> Charte qualité</li>
-                <li>Soumettre votre hôtel</li>
-            </ul>
-        </div>
-
-        <div id="info_footer">
-            
-
-            <ul id="list_footer">
-                <li><h3>Assistance</h3></li>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
-        </div>
-    </footer>
+    
 
     
 </html>

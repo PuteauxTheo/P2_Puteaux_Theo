@@ -37,22 +37,37 @@ ul{
 
 /*--------BARRE DE RECHERCHE---------*/
 
+
 .search_form{
     display: flex;
-    align-items: center;
-    border: 1px solid black;
-    width: 30%;
+    align-content: center;
+    height: 3em;
+    
 }
 
 .fa-map-marker-alt{
-    display: flex;
-    padding: 10px;
+    border: none;
+    padding: 15px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    
+    
+}
 
+#site-search{
+    
+    border: 1px solid #F2F2F2;
+    height: 100%;
+    width: 12%;
 }
 
 button{
+    border: none;
+    height: 100%;
+    width: 6%;
     background-color: #0065FC;
     color: white;
+    border-radius: 0px 10px 10px 0px;
 }
 
 

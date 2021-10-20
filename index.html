@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <title>Booki</title>
         <link rel="stylesheet" href="style.css"> <!-- Pour tout le monde -->
-        <link rel="stylesheet" media="screen and (max-width: 992px)" href="tablette_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 992px -->
-        <link rel="stylesheet" media="screen and (max-width: 375px)" href="telephone_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 768px -->
+        <link rel="stylesheet" media="(max-width: 992px) and (min-width: 768px" href="tablette_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 992px -->
+        <link rel="stylesheet" media="(max-width: 768px)" href="mobile_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 768px -->
         <script src="https://kit.fontawesome.com/15d41a8749.js" crossorigin="anonymous"></script>
         <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,9 +31,9 @@
             </section>
             
             <section>
-                <h1> Trouver Votre Hébergement pour des vacances de rêve</h1>
+                <h1 class="title_header"> Trouver Votre Hébergement pour des vacances de rêve</h1>
                 
-                <h2 id="title2_header">En plein centre ville ou en pleine nature </h2>
+                <h2 class="title2_header">En plein centre ville ou en pleine nature </h2>
             </section>
     
             <div class="header_search">
@@ -101,7 +101,7 @@
                         </div>
 
                         <div id="def_hbgm">
-                            <h1>Auberge La Cannebière</h1>
+                            <h1 class="title_article_hbgm">Auberge La Cannebière</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
@@ -113,7 +113,7 @@
                         </div>
 
                         <div id="def_hbgm">
-                            <h1>Hôtel du port</h1>
+                            <h1 class="title_article_hbgm">Hôtel du port</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
@@ -125,7 +125,7 @@
                         </div>    
 
                         <div id="def_hbgm">
-                            <h1>Hôtel Les Mouettes</h1>
+                            <h1 class="title_article_hbgm">Hôtel Les Mouettes</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
@@ -137,7 +137,7 @@
                         </div>
 
                         <div id="def_hbgm">
-                            <h1>Hôtel de la mer</h1>
+                            <h1 class="title_article_hbgm">Hôtel de la mer</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
@@ -148,7 +148,7 @@
                             <img class="img_1_5" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
                         </div>            
                         <div id="def_hbgm">
-                            <h1>Auberge Le Panier</h1>
+                            <h1 class="title_article_hbgm">Auberge Le Panier</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey_star"></i></span>
                         </div>
@@ -159,7 +159,7 @@
                             <img class="img_1_6" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
                         </div>                
                         <div id="def_hbgm">
-                            <h1>Hôtel chez Amina</h1>
+                            <h1 class="title_article_hbgm">Hôtel chez Amina</h1>
                             <span>Nuit a partir de 25€ </span>
                             <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
@@ -222,7 +222,7 @@
                     <div class="cont_actv">
                         <figure class="el_actv_grand">
                             <div class="div_img">
-                                <img class="img_2_1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                             </div>
                             <figcaption>Vieux Port</figcaption>
                         </figure>
@@ -230,13 +230,13 @@
                     <div class="cont_actv">
                         <figure class="el_actv_petit" >
                             <div  class="div_img_2" >
-                                <img class="img_2_21" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                             </div>
                             <figcaption>Fort de Pomègues</figcaption>
                         </figure>
                         <figure class="el_actv_petit">
                             <div  class="div_img_3">
-                                <img class="img_2_22" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
                             </div>
                             <figcaption>Iles du frioul</figcaption>                      
                         </figure>
@@ -244,7 +244,7 @@
                     <div class="cont_actv">
                         <figure class="el_actv_grand">
                             <div class="div_img">
-                                <img class="img_2_3" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                             </div>
                             <figcaption>Parc National des Calanques</figcaption>
                         </figure>
@@ -252,13 +252,13 @@
                     <div class="cont_actv">
                         <figure class="el_actv_petit">
                             <div  class="div_img_4">
-                                <img class="img_2_41" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                             </div>
                             <figcaption>Notre-Dame-de la Garde</figcaption>
                         </figure>
                         <figure class="el_actv_petit">
                             <div  class="div_img_4">
-                                <img class="img_2_42" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                                <img class="img_actv_mars" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
                             </div>
                             <figcaption>Parc Longchamp</figcaption>
                         </figure>

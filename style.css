@@ -49,8 +49,13 @@ a:hover{
     
 }
 
-#title2_header{
+.title_header{
+    font-size:x-large;
+}
+
+.title2_header{
     color: rgb(158, 157, 157);
+    font-size:medium;
 }
 
 
@@ -214,7 +219,13 @@ button{
 #def_hbgm{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 8px 0px 8px 15px;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.title_article_hbgm{
+    margin: 2px 0px 2px 0px;
 }
 
 .plus_info{
@@ -316,20 +327,18 @@ button{
 
 .img_1_21{
     height: 100%;
-    width: 100%;
-    
+    object-fit: cover;
 }
 
 .img_1_22{
     height: 100%;
-    width: 100%;
+    object-fit: contain;
     
 }
 
 .img_1_23{
     width: 100%;
-    height: 100%;
-    
+    object-fit: contain;
 }
 
 /*-----------------------------------*/
@@ -357,7 +366,7 @@ button{
     
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 500px;
     
 }
@@ -366,10 +375,7 @@ button{
     width: 25%;
     display: flex;
     flex-direction: column;
-    
     border-radius: 20px 20px 20px 20px;
-    
-    
 }
 
 .el_actv_grand{
@@ -387,6 +393,9 @@ button{
     flex-direction: column;
     
 }
+figure{
+    margin: 30px;
+}
 
 figcaption{
     margin: 0.625em ;
@@ -403,7 +412,7 @@ figcaption{
 }
 
 .div_img_2{
-    height: 180px;
+    height: 200px;
     width: 100%;    
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
@@ -423,36 +432,11 @@ figcaption{
     border-radius: 20px 20px 0px 0px;
 }
 
-.img_2_1{
+.img_actv_mars{
     height: 100%;
     width: 100%;
 }
 
-.img_2_21{
-    width: 100%;
-    height: 100%;
-}
-
-.img_2_22{ 
-    width: 100%;
-    height: 100%;
-}
-
-.img_2_3{
-    height: 100%;
-    width: 100%;
-}
-
-.img_2_41{
-    width: 100%;
-    height: 100%;
-}
-
-.img_2_42{
-    width: 100%;
-    height: 100%;
-    
-}
 /*-----------------------------------*/
 
 

@@ -1,0 +1,91 @@
+@media (max-width: 768px)
+{
+/*---------------HEADER------------*/
+
+body{
+    background-color: red;
+}
+
+#img_booki{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    float:none;
+}
+
+nav{
+    display: flex;
+    color: black;
+    font-size: xx-large;
+}
+
+#menu_header{
+    justify-content: center;
+}
+
+/*---------BARRE DE RECHERCHE--------*/
+
+
+
+
+
+/*----------SECTION FILTRES--------*/
+#art_f{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+}
+
+#tittle_filtres{
+    font-size: xx-large;
+}
+#art_filtres{
+   
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size: xx-large;
+
+}
+
+
+.filtres{
+    padding: 30px;
+    border-radius: 20% / 70%;
+    border: 1px solid grey;
+    font-size: 1.2em;
+    
+}
+
+
+/*---ICONES POUR LES FILTRES---*/
+
+/*-----------------------------------*/
+
+
+/*--------------BODY-----------------*/
+
+/*-------ICONES INFORMATION ---------*/
+
+/*---ARTICLE HERBEGEMENT MARSEILLE---*/
+
+/*--------IMAGES HEBERGEMENTS--------*/
+
+/*-----ASIDE LES PLUS POPULAIRES-----*/
+
+/*----IMAGES LES PLUS POPULAIRES-----*/
+
+/*---------ICONES ETOILES------------*/
+
+/*----SECTION ACTIVITES MARSEILLE----*/
+
+/*-----IMAGES ACTIVITES MARSEILLE----*/
+
+/*-----------------------------------*/
+/*-------------FOOTER----------------*/
+
+/*-----------------------------------*/
+
+}

@@ -13,13 +13,32 @@
 
 nav{
     display: flex;
-    color: black;
-    font-size: xx-large;
 }
 
-#menu_header{
+#nav_menu_header{
     justify-content: center;
 }
+
+ul{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.li_header_hbgm, .li_header_actv{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.li_header_hbgm:hover, .li_header_actv:hover{
+    color: blue;
+    border-top: none;
+    border-bottom: 2px solid blue;
+}
+
 
 /*---------BARRE DE RECHERCHE--------*/
 .search_form{
@@ -42,7 +61,7 @@ nav{
     
     border: 1px solid #F2F2F2;
     height: 100%;
-    width: 60%;
+    width: 80%;
 }
 
 button{
@@ -54,6 +73,10 @@ button{
     border-radius: 0px 10px 10px 0px;
 }
 
+.fa-search{
+    display: flex;
+    color: blue;
+}
 
 
 
@@ -61,30 +84,29 @@ button{
 #art_f{
     display: flex;
     width: 100%;
-    
     flex-direction: column;
 }
 
-#tittle_filtres{
+/* #tittle_filtres{
     font-size: xx-large;
-}
+}*/
 #art_filtres{
    
     
     display: flex;
     flex-wrap: wrap;
-    font-size: xx-large;
+    width: 100%;
 
 }
 
 
-.filtres{
+/*.filtres{
     padding: 30px;
     border-radius: 20% / 70%;
     border: 1px solid grey;
     font-size: 1.2em;
     
-}
+}*/
 
 
 /*---ICONES POUR LES FILTRES---*/

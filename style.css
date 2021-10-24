@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Raleway' , sans-serif;
+}
 
 /*---------------HEADER------------*/
 
@@ -29,25 +31,22 @@ a:hover{
     text-decoration: none;
     color: blue;
 }
-#menu_header{
+#nav_menu_header{
     justify-content: right;
 }
 
-.nav_header_actv, .nav_header_hbgm{
+.li_header_actv, .li_header_hbgm{
     display: inline-flex;
     padding: 20px;
 }
 
-.nav_header_hbgm:hover,.nav_header_actv:hover{
+.li_header_hbgm:hover,.li_header_actv:hover{
     display: inline-flex;
     border-top:2px solid blue;
     padding: 20px;
     
 }
 
-.menu_hbgm:hover{
-    
-}
 
 .title_header{
     font-size:x-large;
@@ -94,7 +93,9 @@ button{
     border-radius: 0px 10px 10px 0px;
 }
 
-
+.fa-search{
+    display: none !important;
+}
 
 /*----------SECTION FILTRES---------*/
 
@@ -229,54 +230,24 @@ button{
 }
 
 .plus_info{
+    font-weight: bold;
     margin: 15px;
 }
 /*--------IMAGES HEBERGEMENTS--------*/
 
-.img_hbgm{
+.cont_img_hbgm{
     height: 150px;
     width: 100%;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
 
-.img_1_1{
+.img_hbgm{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.img_1_2{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.img_1_3{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.img_1_4{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.img_1_5{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.img_1_6{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 /*-----------------------------------*/
 
 /*-----ASIDE LES PLUS POPULAIRES-----*/
@@ -326,27 +297,15 @@ button{
 
 
 /*----IMAGES LES PLUS POPULAIRES-----*/
-.img_plus_pop{
+.cont_img_plus_pop{
     width: 40%;
     height: 170px;
     overflow: hidden;
     border-radius: 20px 0px 0px 20px;}
 
-.img_1_21{
+.img_plus_pop{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.img_1_22{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.img_1_23{
-    height: 100%;
-    width: 100%;
     object-fit: cover;
 }
 
@@ -381,6 +340,7 @@ button{
 }
 
 .cont_actv{
+    height: 500px;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -392,6 +352,7 @@ button{
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
+    height: 100%;
     
 }
 
@@ -400,10 +361,11 @@ button{
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
     display: flex;
     flex-direction: column;
+    height: 50%;
     
 }
 figure{
-    margin: 30px;
+    margin: 25px;
 }
 
 figcaption{
@@ -413,7 +375,7 @@ figcaption{
 
 /*-----IMAGES ACTIVITES MARSEILLE----*/
 .div_img{
-    height: 430px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
@@ -428,7 +390,7 @@ figcaption{
 }
 
 .div_img_3{
-    height: 120px;
+    height: 100px;
     width: 100%;    
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
@@ -472,6 +434,9 @@ footer{
     padding-bottom: 20px;
 }
 
+.element_list_footer{
+    padding: 5px 0px 5px 0px;
+}
 
 
 /*-----------------------------------*/

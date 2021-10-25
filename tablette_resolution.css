@@ -28,7 +28,8 @@
     width: 24%;
 }
 
-button{
+.btn_search{
+    display: flex;
     border: none;
     height: 100%;
     width: 10%;
@@ -37,12 +38,23 @@ button{
     border-radius: 0px 10px 10px 0px;
 }
 
+.btn_text{
+    display: none;
+}
+
+.btn_icon_search{
+    display: flex;
+    margin: auto;
+}
+
+
 /*----------SECTION FILTRES---------*/
 
 #art_f{
     display: inline-flex;
     width: 100%;
  }   
+
  
 /*---ICONES POUR LES FILTRES---*/
 

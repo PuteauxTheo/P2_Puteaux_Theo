@@ -64,7 +64,8 @@ ul{
     width: 80%;
 }
 
-button{
+.btn_search{
+    display: flex;
     border: none;
     height: 100%;
     width: 20%;
@@ -73,9 +74,13 @@ button{
     border-radius: 0px 10px 10px 0px;
 }
 
-.fa-search{
+.btn_text{
+    display: none;
+}
+
+.btn_icon_search{
     display: flex;
-    color: blue;
+    margin: auto;
 }
 
 

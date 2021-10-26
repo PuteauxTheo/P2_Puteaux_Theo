@@ -170,6 +170,7 @@ ul{
 }
 
 .cont_actv{
+    height: auto;
     width: 100%;
     display: flex;
     border-radius: 20px 20px 20px 20px;
@@ -179,6 +180,7 @@ ul{
 }
 
 .el_actv_grand{
+    height: auto;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
@@ -186,6 +188,7 @@ ul{
 }
 
 .el_actv_petit{
+    height: auto;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
     display: flex;

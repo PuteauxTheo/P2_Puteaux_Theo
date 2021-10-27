@@ -154,6 +154,9 @@ a:hover{
     padding: 10px;
 }
 
+.filtres:hover{
+    background-color: #e9e7e7a9;
+}
 
 /*---ICONES POUR LES FILTRES---*/
 .icon_Filtre{

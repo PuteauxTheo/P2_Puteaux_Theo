@@ -3,14 +3,13 @@
 /*---------------HEADER------------*/
 
 
-#img_booki{
+.img_booki{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
-    float:none;
 }
 
+.top_header{
+    flex-direction: column;
+}
 nav{
     display: flex;
 }
@@ -34,9 +33,9 @@ ul{
 }
 
 .li_header_hbgm:hover, .li_header_actv:hover{
-    color: blue;
+    color: #0065FC;
     border-top: none;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0065FC;
 }
 
 
@@ -92,26 +91,18 @@ ul{
     flex-direction: column;
 }
 
-/* #tittle_filtres{
-    font-size: xx-large;
-}*/
+
 #art_filtres{
-   
-    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
 
+.filtres{
+    margin-top: 10px;
 }
 
 
-/*.filtres{
-    padding: 30px;
-    border-radius: 20% / 70%;
-    border: 1px solid grey;
-    font-size: 1.2em;
-    
-}*/
 
 
 /*---ICONES POUR LES FILTRES---*/

@@ -18,7 +18,17 @@ header{
     justify-content: space-between;
 }
 
+.img_header{
+    display: flex;
+    height: 75px;
 
+}
+
+.img_booki{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 
 nav{
     display:flex;
@@ -71,6 +81,9 @@ a:hover{
 
 /*--------BARRE DE RECHERCHE---------*/
 
+.header_search{
+    margin: 10px 0px 10px;
+}
 
 .search_form{
     display: flex;
@@ -92,13 +105,13 @@ a:hover{
     
     border: 1px solid #F2F2F2;
     height: 100%;
-    width: 12%;
+    width: 20%;
 }
 
 .btn_search{
     border: none;
     height: 100%;
-    width: 6%;
+    width: auto;
     background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
@@ -200,6 +213,7 @@ a:hover{
     display: inline-flex;
     flex-direction: column;
     vertical-align: top;
+    border-radius: 20px;
     
 }
 
@@ -267,6 +281,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     vertical-align: top;
+    border-radius: 20px;
     
 }
 
@@ -292,7 +307,7 @@ a:hover{
     display: flex;   
     flex-direction: row;
     width: 90%;
-    margin: 20px;
+    margin: 10px auto 10px auto;
 }
 
 .def_plus_pop{

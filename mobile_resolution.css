@@ -225,7 +225,7 @@ footer{
     margin-top: 30px;    
 }
 
-#info_footer{
+.info_footer{
     display: flex;
     flex-direction: column;
     width: 100%;

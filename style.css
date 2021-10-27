@@ -243,7 +243,7 @@ a:hover{
     
 }
 
-#def_hbgm{
+.def_hbgm{
     display: flex;
     flex-direction: column;
     margin: 8px 0px 8px 15px;
@@ -443,13 +443,13 @@ footer{
     margin-top: 30px;    
 }
 
-#info_footer{
+.info_footer{
     display: flex;
     flex-direction: column;
     width: 30%;
 }
 
-#list_footer{
+.list_footer{
     display: flex;
     flex-direction: column;
     margin: 5px;

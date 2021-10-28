@@ -109,7 +109,7 @@ a{
     
     border: 1px solid #F2F2F2;
     height: 100%;
-    width: 20%;
+    width: 15%;
 }
 
 .btn_search{
@@ -135,13 +135,14 @@ a{
 
 .title_filtres{
     display: flex;
-    margin-right: 20px;
+    margin-right: 25px;
+    font-weight: bold;
 }
 
 #art_filtres{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 55%;
     justify-content: space-between;
     align-items: center;
 }
@@ -156,6 +157,7 @@ a{
 
 .text_filtre{
     padding: 10px;
+    font-weight: bold;
 }
 
 .filtres:hover{
@@ -320,7 +322,7 @@ a{
 .def_plus_pop{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 5px 20px 15px 20px;
     width: 60%;
     justify-content: space-between;
 }
@@ -354,9 +356,12 @@ a{
 
 /*----SECTION ACTIVITES MARSEILLE----*/
 
+.title_actv{
+    margin: 0px 25px 0px 25px;
+}
 
 #section_actv{
-    margin: 10px;
+    margin: 50px 10px 10px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -416,6 +421,7 @@ figure{
 
 figcaption{
     margin: 10px ;
+    font-weight: bold;
 }
 
 

@@ -12,7 +12,7 @@ body{
 }
 /*---------------HEADER------------*/
 
-header{
+header, main{
     margin: 0px 10px 10px 10px;
 }
 

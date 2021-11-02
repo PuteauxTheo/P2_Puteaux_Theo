@@ -2,6 +2,9 @@
 {
 /*---------------HEADER------------*/
 
+header{
+    margin:0px;
+}
 
 .img_booki{
     display: flex;
@@ -9,6 +12,11 @@
 
 .top_header{
     flex-direction: column;
+}
+
+.img_header{
+    display: flex;
+    height: 75px;
 }
 nav{
     display: flex;
@@ -39,13 +47,13 @@ ul{
 }
 
 .text_top_main{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
 }
 
 /*---------BARRE DE RECHERCHE--------*/
 
 .header_search{
-    margin: 40px 20px;
+    margin: 30px 20px;
 }
 .search_form{
     display: flex;
@@ -128,9 +136,6 @@ body{
     margin: 0px;
 }
 
-header{
-    margin:0px;
-}
 
 main{
     margin: 0px;
@@ -160,11 +165,11 @@ html{
     margin: 0px 20px 0px 20px;
 }
 .title_hbgm{
-    margin: 40px 20px 0px 20px;
+    margin: 40px 20px 10px 20px;
 }
 .el_hbgm{
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px;
 }
 
 /*--------IMAGES HEBERGEMENTS--------*/
@@ -238,12 +243,12 @@ figure{
 /*-------------FOOTER----------------*/
 footer{
     display: flex;   
-    flex-direction: column; 
     background-color:#F2F2F2;
     margin-top: 30px;    
 }
 
 .section_footer{
+    flex-direction: column;
     margin: 0px 20px 0px 20px;
 }
 

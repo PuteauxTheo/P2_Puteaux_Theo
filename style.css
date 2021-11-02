@@ -23,8 +23,7 @@ header, main{
 
 .img_header{
     display: flex;
-    height: 75px;
-
+    height: 50px;
 }
 
 .img_booki{
@@ -74,35 +73,38 @@ a{
     padding: 20px;    
 }
 
-/* --.title_header{
-    
-}--*/
+.title_header{
+    margin-bottom: 0px;   
+}
 
 .title2_header{
     font-size:medium;
+    margin-top: 5px;
 }
 
 
 /*--------BARRE DE RECHERCHE---------*/
 
 .header_search{
-    margin: 10px 0px 10px;
+    margin: 15px 0px;
 }
 
 .search_form{
     display: flex;
     align-content: center;
-    height: 40px;
+    height: 50px;
     
 }
 
+.map-marker_icon{
+    display: flex;
+    margin: auto 0px;
+}
 .fa-map-marker-alt{
     border: none;
     padding: 15px;
     background-color: #F2F2F2;
-    border-radius: 10px 0px 0px 10px;
-    
-    
+    border-radius: 10px 0px 0px 10px;  
 }
 
 #site-search{
@@ -131,6 +133,7 @@ a{
 #art_f{
    display: inline-flex;
    width: 80%;
+   margin: 10px 0px;
 }   
 
 .title_filtres{
@@ -227,14 +230,13 @@ a{
 }
 
 .title_hbgm{
-    margin: 20px;
+    margin: 40px 50px 10px 50px;
 }
 
 #article_hbgm{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .el_hbgm{
@@ -263,7 +265,7 @@ a{
 
 .plus_info{
     font-weight: bold;
-    margin: 15px;
+    margin: 10px 50px 40px 50px;
 }
 /*--------IMAGES HEBERGEMENTS--------*/
 
@@ -449,8 +451,15 @@ figcaption{
 
 footer{
     display: flex;    
+    flex-direction: row;
     background-color:#F2F2F2;
     margin-top: 30px;    
+}
+
+.section_footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .info_footer{

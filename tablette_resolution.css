@@ -77,6 +77,7 @@
 
 /*----SECTION ACTIVITES MARSEILLE----*/
 
+
 #list_article_actv{
     display: flex;
     flex-direction: column;
@@ -98,11 +99,11 @@
     height: 150px;
 }
 
-.el_actv_grand{
+.cont_actv_grand{
     width: 100%;
 }
 
-.el_actv_moyen, .el_actv_petit_1, .el_actv_petit_2{
+.cont_actv_moyen, .cont_actv_petit_1, .cont_actv_petit_2{
     width: 50%;
 }
 

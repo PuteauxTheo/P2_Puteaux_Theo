@@ -392,13 +392,13 @@ a{
     flex-direction: column;
 }
 
-.el_actv_grand{height: 100%;}
+.el_actv_grand{height: 500px;}
 
-.el_actv_moyen{height: 40%;}
+.el_actv_moyen{height: 225px;}
 
-.el_actv_petit_1{height: 50%;}
+.el_actv_petit_1{height: 275px;}
 
-.el_actv_petit_2{height: 30%;}
+.el_actv_petit_2{height: 175px;}
 
 
 figure{

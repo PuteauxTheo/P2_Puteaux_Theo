@@ -31,7 +31,6 @@ ul{
     width: 100%;
     margin: 0;
     padding: 0;
-
 }
 
 .li_header_hbgm, .li_header_actv{
@@ -58,23 +57,19 @@ ul{
 .search_form{
     display: flex;
     align-content: center;
-    height: 50px;
-    
+    height: 50px;    
 }
+
 .map-marker_icon{
     display: flex;
     margin: auto;
 }
 
-
 #site-search{
-    
     border: 1px solid #F2F2F2;
     height: 100%;
     width: 80%;
 }
-
-
 
 .btn_search{
     display: flex;
@@ -95,18 +90,17 @@ ul{
     margin: auto;
 }
 
-
-
 /*----------SECTION FILTRES--------*/
+
 .section_filtres{
     margin: 20px;
 }
+
 #art_f{
     display: flex;
     width: 100%;
     flex-direction: column;
 }
-
 
 #art_filtres{
     display: flex;
@@ -118,38 +112,22 @@ ul{
     margin-top: 10px;
 }
 
-
-
-
 /*------------INFO SITE--------------*/
 
 .info_site{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
 }
-
-/*-----------------------------------*/
-
 
 /*--------------BODY-----------------*/
 
-body{
+body, main, html{
     margin: 0px;
 }
-
-
-main{
-    margin: 0px;
-}
-
-html{
-    margin: 0;
-}
-
 
 /*---ARTICLE HERBEGEMENT MARSEILLE---*/
 
 .premier_section{
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: column-reverse;
@@ -162,17 +140,17 @@ html{
 }
 
 #article_hbgm{
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
 }
+
 .title_hbgm{
     margin: 40px 20px 10px 20px;
 }
+
 .el_hbgm{
     width: 100%;
     margin: 10px 0px;
 }
-
-/*--------IMAGES HEBERGEMENTS--------*/
 
 /*-----ASIDE LES PLUS POPULAIRES-----*/
 
@@ -181,13 +159,10 @@ html{
     width: 100%;
     display: flex;
     border-radius: 0px;
-    
 }
-/*----IMAGES LES PLUS POPULAIRES-----*/
-
-/*---------ICONES ETOILES------------*/
 
 /*----SECTION ACTIVITES MARSEILLE----*/
+
 #section_actv{
     margin: 50px 20px 10px 20px;
 }
@@ -196,13 +171,12 @@ html{
     margin: 0px;
     margin-bottom: 15px;
 }
+
 #list_article_actv{
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
-    
+    height: auto;    
 }
 
 .cont_actv{
@@ -210,9 +184,7 @@ html{
     width: 100%;
     display: flex;
     border-radius: 20px;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;       
 }
 
 .el_actv_grand, .el_actv_petit{
@@ -222,10 +194,13 @@ html{
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
     
 }
+
 .plus_info{
     margin: 15px 20px;
 }
+
 /*-----IMAGES ACTIVITES MARSEILLE----*/
+
 .div_img{
     height: 100px;
     width: 100%;
@@ -237,9 +212,9 @@ html{
 /*-----IMAGES ACTIVITES MARSEILLE----*/
 
 figure{
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px;
 }
-/*-----------------------------------*/
+
 /*-------------FOOTER----------------*/
 footer{
     display: flex;   
@@ -249,7 +224,7 @@ footer{
 
 .section_footer{
     flex-direction: column;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
 }
 
 .info_footer{

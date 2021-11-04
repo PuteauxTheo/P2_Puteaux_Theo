@@ -1,15 +1,12 @@
 @media screen and (max-width: 992px) and (min-width: 768px)
 {
 
-/*---------------HEADER-----------*/
-
 /*---------BARRE DE RECHERCHE--------*/
 
 .search_form{
     display: flex;
     align-content: center;
     height: 40px;
-    
 }
 
 .fa-map-marker-alt{
@@ -17,12 +14,9 @@
     padding: 15px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
-    
-    
 }
 
 #site-search{
-    
     border: 1px solid #F2F2F2;
     height: 100%;
     width: 100%;
@@ -53,13 +47,7 @@
 #art_f{
     display: inline-flex;
     width: 100%;
- }   
-
- 
-/*---ICONES POUR LES FILTRES---*/
-
-/*-----------------------------------*/
-
+ }
 
 /*--------------BODY-----------------*/
 
@@ -69,7 +57,6 @@
     justify-content: space-between;
     flex-direction: column-reverse;
 }
-/*-------ICONES INFORMATION ---------*/
 
 /*-----ASIDE LES PLUS POPULAIRES-----*/
 
@@ -77,14 +64,10 @@
     background-color:#F2F2F2;
     width: 100%;
     display: flex;
-    
-    
 }
-/*----IMAGES LES PLUS POPULAIRES-----*/
-
-/*-----------------------------------*/
 
 /*---ARTICLE HERBEGEMENT MARSEILLE---*/
+
 #art_h{
     width: 100%;
     background-color:#F2F2F2;
@@ -92,60 +75,44 @@
     margin-top: 20px;
 }
 
-/*--------IMAGES HEBERGEMENTS--------*/
-
-/*-----------------------------------*/
-
-
-
-/*---------ICONES ETOILES------------*/
-
 /*----SECTION ACTIVITES MARSEILLE----*/
+
 #list_article_actv{
-    
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
-    height: auto;
-    
+    height: auto;    
 }
 
 .cont_actv{
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     height: auto;
+}
+
+.el_actv_moyen, .el_actv_petit_1, .el_actv_petit_2, .el_actv_grand{
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
+    height: 150px;
 }
 
 .el_actv_grand{
     width: 100%;
-    border-radius: 20px 20px 20px 20px;
-    display: flex;
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
-    height: 150px;
 }
 
 .el_actv_moyen, .el_actv_petit_1, .el_actv_petit_2{
     width: 50%;
-    border-radius: 20px 20px 20px 20px;
-    display: flex;
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
-    height: 150px;
 }
-/*-----IMAGES ACTIVITES MARSEILLE----*/
 
-
-
-/*-----------------------------------*/
 /*-------------FOOTER----------------*/
+
 .info_footer{
     display: flex;
     flex-direction: column;
     width: 33%;
 }
-
-/*-----------------------------------*/
 
 }
 

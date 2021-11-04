@@ -382,41 +382,25 @@ a{
     width: 25%;
     display: flex;
     flex-direction: column;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
-.el_actv_grand{
-    border-radius: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
-    height: 100%;
-    
-}
-
-.el_actv_moyen{
-    border-radius: 20px 20px 20px 20px;
+.el_actv_grand, .el_actv_moyen, .el_actv_petit_1, .el_actv_petit_2{
+    border-radius: 20px;
     box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
     display: flex;
     flex-direction: column;
-    height: 40%; 
 }
 
-.el_actv_petit_1{
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-}
+.el_actv_grand{height: 100%;}
 
-.el_actv_petit_2{
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.4);
-    display: flex;
-    flex-direction: column;
-    height: 30%;
-}
+.el_actv_moyen{height: 40%;}
+
+.el_actv_petit_1{height: 50%;}
+
+.el_actv_petit_2{height: 30%;}
+
+
 figure{
     margin: 25px;
 }
@@ -432,10 +416,8 @@ figcaption{
     height: 100%;
     width: 100%;
     overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
-    
+    border-radius: 20px 0px;    
 }
-
 
 .img_actv_mars{
     height: 100%;
@@ -444,8 +426,6 @@ figcaption{
 }
 
 /*-----------------------------------*/
-
-
 
 /*-------------FOOTER----------------*/
 
@@ -461,16 +441,14 @@ footer{
     flex-direction: row;
     width: 100%;
 }
-
-.info_footer{
+.info_footer, .list_footer{
     display: flex;
     flex-direction: column;
-    width: 30%;
 }
 
+.info_footer{width: 30%;}
+
 .list_footer{
-    display: flex;
-    flex-direction: column;
     margin: 5px;
     padding-bottom: 20px;
 }

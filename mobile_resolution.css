@@ -187,7 +187,7 @@ body, main, html{
     flex-wrap: wrap;       
 }
 
-.el_actv_grand, .el_actv_petit{
+.el_actv_grand, .el_actv_petit_1, .el_actv_petit_2, .el_actv_moyen{
     height: auto;
     border-radius: 20px;
     display: flex;

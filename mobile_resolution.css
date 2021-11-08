@@ -53,6 +53,9 @@ ul{
 
 .header_search{
     margin: 30px 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    
 }
 .search_form{
     display: flex;
@@ -62,13 +65,13 @@ ul{
 
 .map-marker_icon{
     display: flex;
-    margin: auto;
+    margin: auto  0px;
 }
 
 #site-search{
-    border: 1px solid #F2F2F2;
+    border: none;
     height: 100%;
-    width: 80%;
+    width: 86%;
 }
 
 .btn_search{

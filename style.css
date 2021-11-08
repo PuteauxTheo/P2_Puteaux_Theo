@@ -102,7 +102,7 @@ a{
 }
 .fa-map-marker-alt{
     border: none;
-    padding: 15px;
+    padding: 17px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;  
 }
@@ -392,13 +392,13 @@ a{
     flex-direction: column;
 }
 
-.el_actv_grand{height: 500px;}
+.el_actv_grand{height: 450px;}
 
-.el_actv_moyen{height: 225px;}
+.el_actv_moyen{height: 200px;}
 
-.el_actv_petit_1{height: 275px;}
+.el_actv_petit_1{height: 250px;}
 
-.el_actv_petit_2{height: 175px;}
+.el_actv_petit_2{height: 150px;}
 
 
 figure{
